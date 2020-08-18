@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11409d24-6a0f-4345-87ca-b1767c9c3ca2" name="Default Changelist" comment="" />
+    <list default="true" id="11409d24-6a0f-4345-87ca-b1767c9c3ca2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day01/Practice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01/Practice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day01/Practice2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day01/Practice2.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,71 +49,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
   </component>
-  <component name="RunManager" selected="JUnit.Practice2.test1">
-    <configuration name="Practice1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day01" />
-      <option name="MAIN_CLASS_NAME" value="day01.Practice1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice1.printingBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day01" />
-      <option name="MAIN_CLASS_NAME" value="day01.Practice1" />
-      <option name="METHOD_NAME" value="printingBody" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice1.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day01" />
-      <option name="MAIN_CLASS_NAME" value="day01.Practice1" />
-      <option name="METHOD_NAME" value="testHello" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice1.testingHelloResponseBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day01" />
-      <option name="MAIN_CLASS_NAME" value="day01.Practice1" />
-      <option name="METHOD_NAME" value="testingHelloResponseBody" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RestAssuredMethodChaining.testAllSpartans">
+    <configuration name="Practice2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +60,70 @@
       </extension>
       <option name="PACKAGE_NAME" value="day01" />
       <option name="MAIN_CLASS_NAME" value="day01.Practice2" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredMethodChaining" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day01" />
+      <option name="MAIN_CLASS_NAME" value="day01.RestAssuredMethodChaining" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredMethodChaining.chainingMethodsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day01" />
+      <option name="MAIN_CLASS_NAME" value="day01.RestAssuredMethodChaining" />
+      <option name="METHOD_NAME" value="chainingMethodsTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredMethodChaining.testAllSpartans" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day01" />
+      <option name="MAIN_CLASS_NAME" value="day01.RestAssuredMethodChaining" />
+      <option name="METHOD_NAME" value="testAllSpartans" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredMethodChaining.testingWithMatcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day01" />
+      <option name="MAIN_CLASS_NAME" value="day01.RestAssuredMethodChaining" />
+      <option name="METHOD_NAME" value="testingWithMatcher" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Practice2.test1" />
-        <item itemvalue="JUnit.Practice1.printingBody" />
-        <item itemvalue="JUnit.Practice1.testingHelloResponseBody" />
-        <item itemvalue="JUnit.Practice1.testHello" />
-        <item itemvalue="JUnit.Practice1" />
+        <item itemvalue="JUnit.RestAssuredMethodChaining.testAllSpartans" />
+        <item itemvalue="JUnit.RestAssuredMethodChaining" />
+        <item itemvalue="JUnit.RestAssuredMethodChaining.testingWithMatcher" />
+        <item itemvalue="JUnit.RestAssuredMethodChaining.chainingMethodsTest1" />
+        <item itemvalue="JUnit.Practice2.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -147,22 +151,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1269" height="220" key="GridCell.Tab.0.bottom" timestamp="1597778266886">
+    <state width="1269" height="126" key="GridCell.Tab.0.bottom" timestamp="1597782650191">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1269" height="220" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597778266886" />
-    <state width="1269" height="220" key="GridCell.Tab.0.center" timestamp="1597778266883">
+    <state width="1269" height="126" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597782650191" />
+    <state width="1269" height="126" key="GridCell.Tab.0.center" timestamp="1597782650190">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1269" height="220" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597778266883" />
-    <state width="1269" height="220" key="GridCell.Tab.0.left" timestamp="1597778266882">
+    <state width="1269" height="126" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597782650190" />
+    <state width="1269" height="126" key="GridCell.Tab.0.left" timestamp="1597782650190">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1269" height="220" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597778266882" />
-    <state width="1269" height="220" key="GridCell.Tab.0.right" timestamp="1597778266885">
+    <state width="1269" height="126" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597782650190" />
+    <state width="1269" height="126" key="GridCell.Tab.0.right" timestamp="1597782650191">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1269" height="220" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597778266885" />
+    <state width="1269" height="126" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597782650191" />
     <state x="180" y="23" key="Maven.ArtifactSearchDialog" timestamp="1597768507477">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
