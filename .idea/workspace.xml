@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11409d24-6a0f-4345-87ca-b1767c9c3ca2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02/SpartanTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02/SpartanTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day03/ExtractingDataOutOfResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03/ExtractingDataOutOfResponseBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day03/ExtractingDataUsingJsonPathMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03/ExtractingDataUsingJsonPathMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day03/ExtractingDataOutOfResponseBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day03/ExtractingDataOutOfResponseBody.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day03/ExtractingDataUsingJsonPathMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day03/ExtractingDataUsingJsonPathMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day04/PostRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04/PostRequestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,23 +54,55 @@
       <recent name="day02" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostRequestTest.testPostWithExternalFile">
-    <configuration name="PostRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PostRequestWithFormAsBody.runningUtilityMethod">
+    <configuration name="PostRequestWithFormAsBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.*" />
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day04" />
-      <option name="MAIN_CLASS_NAME" value="day04.PostRequestTest" />
+      <option name="PACKAGE_NAME" value="day05" />
+      <option name="MAIN_CLASS_NAME" value="day05.PostRequestWithFormAsBody" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRequestTest.testPostWithExternalFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostRequestWithFormAsBody.runningUtilityMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day05" />
+      <option name="MAIN_CLASS_NAME" value="day05.PostRequestWithFormAsBody" />
+      <option name="METHOD_NAME" value="runningUtilityMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRequestWithFormAsBody.testLoginEndPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day05" />
+      <option name="MAIN_CLASS_NAME" value="day05.PostRequestWithFormAsBody" />
+      <option name="METHOD_NAME" value="testLoginEndPoint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutAndPatchRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +111,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day04" />
-      <option name="MAIN_CLASS_NAME" value="day04.PostRequestTest" />
-      <option name="METHOD_NAME" value="testPostWithExternalFile" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="day04.PutAndPatchRequestTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRequestTest.testPostWithStringBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PutAndPatchRequestTest.testPutRequestWithMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
@@ -100,40 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day04" />
-      <option name="MAIN_CLASS_NAME" value="day04.PostRequestTest" />
-      <option name="METHOD_NAME" value="testPostWithStringBody" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PutRequestExample.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day03" />
-      <option name="MAIN_CLASS_NAME" value="day03.PutRequestExample" />
-      <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PutRequestExample.updateSpartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day03" />
-      <option name="MAIN_CLASS_NAME" value="day03.PutRequestExample" />
-      <option name="METHOD_NAME" value="updateSpartan" />
+      <option name="MAIN_CLASS_NAME" value="day04.PutAndPatchRequestTest" />
+      <option name="METHOD_NAME" value="testPutRequestWithMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostRequestTest.testPostWithExternalFile" />
-        <item itemvalue="JUnit.PostRequestTest" />
-        <item itemvalue="JUnit.PostRequestTest.testPostWithStringBody" />
-        <item itemvalue="JUnit.PutRequestExample.testDelete" />
-        <item itemvalue="JUnit.PutRequestExample.updateSpartan" />
+        <item itemvalue="JUnit.PostRequestWithFormAsBody.runningUtilityMethod" />
+        <item itemvalue="JUnit.PostRequestWithFormAsBody" />
+        <item itemvalue="JUnit.PostRequestWithFormAsBody.testLoginEndPoint" />
+        <item itemvalue="JUnit.PutAndPatchRequestTest" />
+        <item itemvalue="JUnit.PutAndPatchRequestTest.testPutRequestWithMap" />
       </list>
     </recent_temporary>
   </component>
@@ -161,44 +155,52 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1269" height="191" key="GridCell.Tab.0.bottom" timestamp="1598294878463">
-      <screen x="0" y="23" width="1440" height="815" />
+    <state width="1269" height="191" key="GridCell.Tab.0.bottom" timestamp="1598368541386">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598294878463" />
+    <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598302058977" />
     <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1598139213930" />
     <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.827/1440.23.1360.745@0.23.1440.827" timestamp="1598039219485" />
     <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.829/1440.23.1360.745@0.23.1440.829" timestamp="1598040377899" />
     <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.830/1440.23.1360.745@0.23.1440.830" timestamp="1598019432543" />
+    <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.832/1440.23.1360.745@0.23.1440.832" timestamp="1598368541386" />
+    <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.833/1440.23.1360.745@0.23.1440.833" timestamp="1598366341447" />
     <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1360.700@0.23.1440.877" timestamp="1598021053053" />
     <state width="1269" height="126" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597784152340" />
-    <state width="1269" height="191" key="GridCell.Tab.0.center" timestamp="1598294878462">
-      <screen x="0" y="23" width="1440" height="815" />
+    <state width="1269" height="191" key="GridCell.Tab.0.center" timestamp="1598368541386">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598294878462" />
+    <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598302058976" />
     <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1598139213929" />
     <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.827/1440.23.1360.745@0.23.1440.827" timestamp="1598039219484" />
     <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.829/1440.23.1360.745@0.23.1440.829" timestamp="1598040377898" />
     <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.830/1440.23.1360.745@0.23.1440.830" timestamp="1598019432542" />
+    <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.832/1440.23.1360.745@0.23.1440.832" timestamp="1598368541386" />
+    <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.833/1440.23.1360.745@0.23.1440.833" timestamp="1598366341447" />
     <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1360.700@0.23.1440.877" timestamp="1598021053052" />
     <state width="1269" height="126" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597784152338" />
-    <state width="1269" height="191" key="GridCell.Tab.0.left" timestamp="1598294878461">
-      <screen x="0" y="23" width="1440" height="815" />
+    <state width="1269" height="191" key="GridCell.Tab.0.left" timestamp="1598368541386">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598294878461" />
+    <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598302058976" />
     <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1598139213929" />
     <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.827/1440.23.1360.745@0.23.1440.827" timestamp="1598039219483" />
     <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.829/1440.23.1360.745@0.23.1440.829" timestamp="1598040377897" />
     <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.830/1440.23.1360.745@0.23.1440.830" timestamp="1598019432542" />
+    <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.832/1440.23.1360.745@0.23.1440.832" timestamp="1598368541386" />
+    <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.833/1440.23.1360.745@0.23.1440.833" timestamp="1598366341446" />
     <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1360.700@0.23.1440.877" timestamp="1598021053052" />
     <state width="1269" height="126" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597784152337" />
-    <state width="1269" height="191" key="GridCell.Tab.0.right" timestamp="1598294878462">
-      <screen x="0" y="23" width="1440" height="815" />
+    <state width="1269" height="191" key="GridCell.Tab.0.right" timestamp="1598368541386">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598294878462" />
+    <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598302058977" />
     <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1598139213930" />
     <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.827/1440.23.1360.745@0.23.1440.827" timestamp="1598039219484" />
     <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.829/1440.23.1360.745@0.23.1440.829" timestamp="1598040377898" />
     <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.830/1440.23.1360.745@0.23.1440.830" timestamp="1598019432543" />
+    <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.832/1440.23.1360.745@0.23.1440.832" timestamp="1598368541386" />
+    <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.833/1440.23.1360.745@0.23.1440.833" timestamp="1598366341447" />
     <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1360.700@0.23.1440.877" timestamp="1598021053053" />
     <state width="1269" height="126" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597784152338" />
     <state x="180" y="23" key="Maven.ArtifactSearchDialog" timestamp="1597768507477">

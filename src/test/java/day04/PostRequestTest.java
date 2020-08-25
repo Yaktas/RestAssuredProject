@@ -1,4 +1,5 @@
 package day04;
+
 import com.github.javafaker.Faker;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -7,6 +8,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
@@ -76,12 +79,34 @@ public class PostRequestTest {
 
     @DisplayName("Posting with Map object as body")
     @Test
-    public void testPostWithMapAsBody() {
+    public void testPostWithMapAsBody(){
 
         // please add dependency jackson-databind
 
         // create a Map<String,Object> as hashMap
         // add name , gender , phone
+        // Back at 3:00PM EST
+        Map<String, Object> bodyMap = new LinkedHashMap<>();
+        bodyMap.put("name","Vincent");
+        bodyMap.put("gender","Male");
+        bodyMap.put("phone",3476346789l);
+
+        System.out.println("bodyMap = " + bodyMap);
+        // j
+        given()
+                .log().all()
+                .contentType(ContentType.JSON)
+                .body(bodyMap).
+        when()
+                .post("/spartans").
+        then()
+                .log().all()
+                .statusCode(201)
+                .body("data.name",is("Vincent"))
+
+
+        ;
+
 
 
     }
