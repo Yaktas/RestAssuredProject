@@ -60,6 +60,26 @@ public class HR_ORDS_GroovyMagic {
 
         List<String> richPeople = jp.getList("items.findAll { it.salary > 15000 }.first_name ") ;
         System.out.println("richPeople = " + richPeople);
+
+        // Find out all the phone_number in department_id 90
+        List<String> phonesDep90 = jp.getList("items.findAll { it.department_id == 90 }.phone_number ") ;
+        System.out.println("phonesDep90 = " + phonesDep90);
+
+        // max , min
+        // find out the max salary
+        int maxSalary =  jp.getInt("items.max{ it.salary }.salary") ;
+        System.out.println("maxSalary = " + maxSalary);
+        // find out the name of the guy who make max salary
+        String richestGuy = jp.getString("items.max {it.salary}.first_name ") ;
+        System.out.println("richestGuy = " + richestGuy);
+
+        // find out the min salary
+        int minSalary =  jp.getInt("items.max{ it.salary }.salary") ;
+        System.out.println("minSalary = " + minSalary);
+        // find out the name of the guy who make min salary
+        String lastGuy = jp.getString("items.min {it.salary}.first_name ") ;
+        System.out.println("min salary employee = " + lastGuy);
+
     }
 
 
