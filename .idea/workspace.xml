@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11409d24-6a0f-4345-87ca-b1767c9c3ca2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day12/SchemaValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12/SchemaValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day12/Day17.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12/Day17.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,38 +62,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OpenMovieDB_XML.testGettingAttributeAsList">
-    <configuration name="HamcrestMatcherEveryItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day12" />
-      <option name="MAIN_CLASS_NAME" value="day12.HamcrestMatcherEveryItem" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HamcrestMatcherEveryItem.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day12" />
-      <option name="MAIN_CLASS_NAME" value="day12.HamcrestMatcherEveryItem" />
-      <option name="METHOD_NAME" value="testList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test_oAuth2ExampleInRestAssured.test">
     <configuration name="OpenMovieDB_XML.testGettingAttributeAsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
@@ -106,21 +75,6 @@
       <option name="MAIN_CLASS_NAME" value="day12.OpenMovieDB_XML" />
       <option name="METHOD_NAME" value="testGettingAttributeAsList" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpartanXML_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day12" />
-      <option name="MAIN_CLASS_NAME" value="day12.SpartanXML_Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,13 +95,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_oAuth2ExampleInRestAssured" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day13" />
+      <option name="MAIN_CLASS_NAME" value="day13.Test_oAuth2ExampleInRestAssured" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_oAuth2ExampleInRestAssured.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day13" />
+      <option name="MAIN_CLASS_NAME" value="day13.Test_oAuth2ExampleInRestAssured" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_oAutohExmpleinRestAssured.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day18" />
+      <option name="MAIN_CLASS_NAME" value="day18.Test_oAutohExmpleinRestAssured" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_oAuth2ExampleInRestAssured.test" />
+        <item itemvalue="JUnit.Test_oAuth2ExampleInRestAssured" />
+        <item itemvalue="JUnit.Test_oAutohExmpleinRestAssured.test" />
         <item itemvalue="JUnit.OpenMovieDB_XML.testGettingAttributeAsList" />
         <item itemvalue="JUnit.SpartanXML_Test.testSpartanExtractData" />
-        <item itemvalue="JUnit.HamcrestMatcherEveryItem.testList" />
-        <item itemvalue="JUnit.HamcrestMatcherEveryItem" />
-        <item itemvalue="JUnit.SpartanXML_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -186,12 +187,13 @@
       <screen x="0" y="23" width="1440" height="815" />
     </state>
     <state x="232" y="85" key="DBNavigator.ProjectSettingsDialog/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598969265735" />
-    <state width="1398" height="217" key="GridCell.Tab.0.bottom" timestamp="1599598170482">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="217" key="GridCell.Tab.0.bottom" timestamp="1599766213973">
+      <screen x="0" y="23" width="1440" height="817" />
     </state>
     <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598302058977" />
     <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1598139213930" />
     <state width="1277" height="210" key="GridCell.Tab.0.bottom/0.23.1440.817/1440.23.1360.745@0.23.1440.817" timestamp="1598906936357" />
+    <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.23.1440.817/1440.23.1920.1057@0.23.1440.817" timestamp="1599766213973" />
     <state width="1279" height="212" key="GridCell.Tab.0.bottom/0.23.1440.821/1440.23.1360.745@0.23.1440.821" timestamp="1598975572124" />
     <state width="1279" height="212" key="GridCell.Tab.0.bottom/0.23.1440.823/1440.23.1360.745@0.23.1440.823" timestamp="1598993016462" />
     <state width="1279" height="212" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1599000730755" />
@@ -206,13 +208,14 @@
     <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.833/1440.23.1360.745@0.23.1440.833" timestamp="1598372187834" />
     <state width="1269" height="191" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1360.700@0.23.1440.877" timestamp="1598021053053" />
     <state width="1269" height="126" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597784152340" />
-    <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.992@0.23.1440.877" timestamp="1599598170482" />
-    <state width="1398" height="217" key="GridCell.Tab.0.center" timestamp="1599598170481">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.992@0.23.1440.877" timestamp="1599598639143" />
+    <state width="1398" height="217" key="GridCell.Tab.0.center" timestamp="1599766213972">
+      <screen x="0" y="23" width="1440" height="817" />
     </state>
     <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598302058976" />
     <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1598139213929" />
     <state width="1277" height="210" key="GridCell.Tab.0.center/0.23.1440.817/1440.23.1360.745@0.23.1440.817" timestamp="1598906936356" />
+    <state width="1398" height="217" key="GridCell.Tab.0.center/0.23.1440.817/1440.23.1920.1057@0.23.1440.817" timestamp="1599766213972" />
     <state width="1279" height="212" key="GridCell.Tab.0.center/0.23.1440.821/1440.23.1360.745@0.23.1440.821" timestamp="1598975572123" />
     <state width="1279" height="212" key="GridCell.Tab.0.center/0.23.1440.823/1440.23.1360.745@0.23.1440.823" timestamp="1598993016461" />
     <state width="1279" height="212" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1599000730754" />
@@ -227,13 +230,14 @@
     <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.833/1440.23.1360.745@0.23.1440.833" timestamp="1598372187833" />
     <state width="1269" height="191" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1360.700@0.23.1440.877" timestamp="1598021053052" />
     <state width="1269" height="126" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597784152338" />
-    <state width="1398" height="217" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.992@0.23.1440.877" timestamp="1599598170481" />
-    <state width="1398" height="217" key="GridCell.Tab.0.left" timestamp="1599598170480">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="217" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.992@0.23.1440.877" timestamp="1599598639143" />
+    <state width="1398" height="217" key="GridCell.Tab.0.left" timestamp="1599766213971">
+      <screen x="0" y="23" width="1440" height="817" />
     </state>
     <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598302058976" />
     <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1598139213929" />
     <state width="1277" height="210" key="GridCell.Tab.0.left/0.23.1440.817/1440.23.1360.745@0.23.1440.817" timestamp="1598906936355" />
+    <state width="1398" height="217" key="GridCell.Tab.0.left/0.23.1440.817/1440.23.1920.1057@0.23.1440.817" timestamp="1599766213971" />
     <state width="1279" height="212" key="GridCell.Tab.0.left/0.23.1440.821/1440.23.1360.745@0.23.1440.821" timestamp="1598975572123" />
     <state width="1279" height="212" key="GridCell.Tab.0.left/0.23.1440.823/1440.23.1360.745@0.23.1440.823" timestamp="1598993016460" />
     <state width="1279" height="212" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1599000730753" />
@@ -248,13 +252,14 @@
     <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.833/1440.23.1360.745@0.23.1440.833" timestamp="1598372187833" />
     <state width="1269" height="191" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1360.700@0.23.1440.877" timestamp="1598021053052" />
     <state width="1269" height="126" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597784152337" />
-    <state width="1398" height="217" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.992@0.23.1440.877" timestamp="1599598170480" />
-    <state width="1398" height="217" key="GridCell.Tab.0.right" timestamp="1599598170481">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="217" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.992@0.23.1440.877" timestamp="1599598639142" />
+    <state width="1398" height="217" key="GridCell.Tab.0.right" timestamp="1599766213973">
+      <screen x="0" y="23" width="1440" height="817" />
     </state>
     <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598302058977" />
     <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1598139213930" />
     <state width="1277" height="210" key="GridCell.Tab.0.right/0.23.1440.817/1440.23.1360.745@0.23.1440.817" timestamp="1598906936356" />
+    <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.817/1440.23.1920.1057@0.23.1440.817" timestamp="1599766213973" />
     <state width="1279" height="212" key="GridCell.Tab.0.right/0.23.1440.821/1440.23.1360.745@0.23.1440.821" timestamp="1598975572124" />
     <state width="1279" height="212" key="GridCell.Tab.0.right/0.23.1440.823/1440.23.1360.745@0.23.1440.823" timestamp="1598993016461" />
     <state width="1279" height="212" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1599000730755" />
@@ -269,7 +274,7 @@
     <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.833/1440.23.1360.745@0.23.1440.833" timestamp="1598372187834" />
     <state width="1269" height="191" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1360.700@0.23.1440.877" timestamp="1598021053053" />
     <state width="1269" height="126" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597784152338" />
-    <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.992@0.23.1440.877" timestamp="1599598170481" />
+    <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.992@0.23.1440.877" timestamp="1599598639143" />
     <state width="1269" height="219" key="GridCell.Tab.1.bottom" timestamp="1598901599808">
       <screen x="0" y="23" width="1440" height="817" />
     </state>
@@ -305,9 +310,10 @@
     <state x="71" y="23" key="SettingsEditor/0.23.1440.815/1440.23.1360.745@0.23.1440.815" timestamp="1598969189585" />
     <state x="71" y="23" key="SettingsEditor/0.23.1440.817/1440.23.1360.745@0.23.1440.817" timestamp="1598907048001" />
     <state x="71" y="23" key="SettingsEditor/0.23.1440.827/1440.23.1360.745@0.23.1440.827" timestamp="1599151400395" />
-    <state x="375" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597767400723">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="242" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599770585901">
+      <screen x="0" y="23" width="1440" height="817" />
     </state>
+    <state x="242" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.817/1440.23.1920.1057@0.23.1440.817" timestamp="1599770585901" />
     <state x="375" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/1440.23.1360.701@0.23.1440.877" timestamp="1597767400723" />
     <state x="378" y="166" key="refactoring.ChangeSignatureDialog" timestamp="1598370206762">
       <screen x="0" y="23" width="1440" height="832" />
